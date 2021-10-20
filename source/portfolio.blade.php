@@ -72,7 +72,7 @@ $items = [
         'tags' => ['Desktop', '.NET Framework', 'WinForms']
     ],
     'Sikako' => [
-        'desc' => 'Scrape movies data from IMDb. CPA tool that performs auto-post job into various web 2.0 platforms including Blogger, WordPress, Overblog and Tumblr with flexible templating system.',
+        'desc' => 'IMDb scraper and CPA tool that performs auto-post job into various web 2.0 platforms including Blogger, WordPress, Overblog and Tumblr with flexible templating system.',
         'link' => 'https://www.youtube.com/watch?v=IlErmamcuSQ',
         'tags' => ['Desktop', '.NET Core', 'WPF']
     ],

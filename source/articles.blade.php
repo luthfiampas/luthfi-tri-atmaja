@@ -7,5 +7,5 @@ description: I write blog posts in my free time. This is just a collection of my
 
 @section('content')
 <h1>Articles</h1>
-<p>I write blog posts in my free time. This is just a collection of my thoughts and writing about programming, computer, music, sport and everything.</p>
+<p>{{ $page->description }}</p>
 @endsection

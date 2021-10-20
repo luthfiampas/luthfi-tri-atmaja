@@ -7,7 +7,7 @@ description: Browse my portfolio for examples of my work. I am constantly creati
 
 @section('content')
 <h1>Portfolio</h1>
-<p>Browse my portfolio for examples of my work. I am constantly creating new projects, and will be updating this page on a regular basis.</p>
+<p>{{ $page->description }}</p>
 
 @php
 $items = [

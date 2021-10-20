@@ -1,17 +1,23 @@
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: 400;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
-h1.hi {
+h1.has-icon {
     display: flex;
     align-items: center;
 
     &::after {
-        content: '\1F44B';
+        content: attr(data-icon);
         font-size: $text-h3;
         margin-left: .75rem;
     }

@@ -1,0 +1,28 @@
+.portfolio-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        padding: 0;
+        margin: 1.25rem 0;
+    
+        h2 {
+            display: flex;
+            align-items: center;
+            font-size: $text-h2;
+    
+            &::before {
+                content: attr(data-prefix);
+                font-size: $text-h2;
+                font-weight: 300;
+                margin-right: .25rem;
+            }
+        }
+    
+        p {
+            display: block;
+            margin-bottom: .5rem;
+        }
+    }
+}

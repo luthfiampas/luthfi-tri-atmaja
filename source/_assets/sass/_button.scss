@@ -1,0 +1,10 @@
+.link-button {
+    display: inline-block;
+    background: $color-text;
+    color: $color-paper;
+    padding: .25rem .5rem;
+    font-size: $text-sm;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+}

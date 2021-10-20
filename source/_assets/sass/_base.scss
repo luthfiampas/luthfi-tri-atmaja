@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: $baseline;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: $color-paper;
+    font-family: $font-sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    color: $color-text;
+}
+
+a {
+    text-decoration: none;
+    color: $color-link;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

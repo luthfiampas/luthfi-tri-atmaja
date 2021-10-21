@@ -9,17 +9,14 @@ html {
 
 body {
     background: $color-paper;
-    font-family: $font-sans;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
     color: $color-text;
+    font-family: $font-sans;
+    margin: 0;
 }
 
 a {
-    text-decoration: none;
     color: $color-link;
+    text-decoration: none;
 
     &:hover {
         text-decoration: underline;

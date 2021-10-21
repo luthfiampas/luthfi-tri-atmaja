@@ -1,7 +1,7 @@
-.badge {
+.tag {
+    background: $color-border;
     display: inline-block;
     font-size: $text-xs;
-    padding: .25rem .5rem;
-    background: $color-border;
     line-height: 1.2;
+    padding: .25rem .5rem;
 }

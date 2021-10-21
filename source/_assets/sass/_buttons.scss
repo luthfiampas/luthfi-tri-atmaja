@@ -1,10 +1,10 @@
 .button {
-    display: inline-block;
     background: $color-link;
     color: $color-paper;
-    padding: .25rem .5rem;
+    display: inline-block;
     font-size: $text-sm;
     font-weight: 600;
-    text-transform: uppercase;
     line-height: 1.2;
+    padding: .25rem .5rem;
+    text-transform: uppercase;
 }

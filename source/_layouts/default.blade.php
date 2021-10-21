@@ -31,25 +31,39 @@
     <div class="site-container">
         <header class="site-header">
             <div class="site-title">
-                <a href="{{ $page->baseUrl ? $page->baseUrl : '/' }}" class="site-header-link">Luthfi Tri Atmaja</a>
+                <a href="{{ $page->baseUrl ? $page->baseUrl : '/' }}" class="site-title-link">Luthfi Tri Atmaja</a>
             </div>
             <nav class="site-nav">
-                <ul>
+                <ul class="site-nav-items">
                     @if (\Illuminate\Support\Str::startsWith($page->getPath(), '/portfolio'))
-                    <li><a href="/portfolio" class="is-active">Works</a></li>
+                    <li class="site-nav-item">
+                        <a class="site-nav-link is-active" href="/portfolio">Works</a>
+                    </li>
                     @else
-                    <li><a href="/portfolio">Works</a></li>
+                    <li class="site-nav-item">
+                        <a class="site-nav-link" href="/portfolio">Works</a>
+                    </li>
                     @endif
 
                     @if (\Illuminate\Support\Str::startsWith($page->getPath(), '/articles'))
-                    <li><a href="/articles" class="is-active">Articles</a></li>
+                    <li class="site-nav-item">
+                        <a class="site-nav-link is-active" href="/articles">Articles</a>
+                    </li>
                     @else
-                    <li><a href="/articles">Articles</a></li>
+                    <li class="site-nav-item">
+                        <a class="site-nav-link" href="/articles">Articles</a>
+                    </li>
                     @endif
                     
-                    <li><a href="https://github.com/luthfiampas" target="_blank" rel="nofollow">GitHub</a></li>
-                    <li><a href="https://linkedin.com/in/luthfiampas" target="_blank" rel="nofollow">LinkedIn</a></li>
-                    <li><a href="https://twitter.com/luthfiampas" target="_blank" rel="nofollow">Twitter</a></li>
+                    <li class="site-nav-item">
+                        <a class="site-nav-link" href="https://github.com/luthfiampas" target="_blank" rel="nofollow">GitHub</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a class="site-nav-link" href="https://linkedin.com/in/luthfiampas" target="_blank" rel="nofollow">LinkedIn</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a class="site-nav-link" href="https://twitter.com/luthfiampas" target="_blank" rel="nofollow">Twitter</a>
+                    </li>
                 </ul>
             </nav>
         </header>

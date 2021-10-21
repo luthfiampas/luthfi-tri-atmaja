@@ -1,9 +1,10 @@
 ---
 title: Not Found
+permalink: 404.html
 ---
 
-@extends('_layouts.default')
+@extends('_layouts.blank')
 
-@section('content')
+@section('body')
 <h1>404 NOT FOUND</h1>
 @endsection

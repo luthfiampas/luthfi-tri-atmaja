@@ -1,6 +1,6 @@
-@extends('_layouts.default')
+@extends('_layouts.blank')
 
-@section('content')
+@section('body')
 <h1 class="has-icon" data-icon="&#128075;">Hi, I'm Luthfi!</h1>
 <p>Just an ordinary software engineer who always trying to improve.</p>
 <p>I've been working with <a href="https://dotnet.microsoft.com/" rel="nofollow" target="_blank">C# and Microsoft .NET</a> since 2016. I write blog posts in free time, coding at day and have a good sleep at night!</p>

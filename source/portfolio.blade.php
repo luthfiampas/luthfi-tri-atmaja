@@ -3,12 +3,9 @@ title: Portfolio
 description: Browse my portfolio for examples of my work. I am constantly creating new projects, and will be updating this page on a regular basis.
 ---
 
-@extends('_layouts.default')
+@extends('_layouts.page')
 
 @section('content')
-<h1>Portfolio</h1>
-<p>{{ $page->description }}</p>
-
 @php
 $items = [
     'Putra Sikunir' => [

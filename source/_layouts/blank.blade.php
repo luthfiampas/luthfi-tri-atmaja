@@ -68,7 +68,7 @@
             </nav>
         </header>
         <main class="site-main">
-            @yield('content')
+            @yield('body')
         </main>
         <footer class="site-footer">
             <span class="site-copyright">Copyright © 2021 <a href="{{ $page->baseUrl ? $page->baseUrl : '/' }}">Luthfi Tri Atmaja</a></span>

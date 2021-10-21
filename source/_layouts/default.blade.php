@@ -57,7 +57,7 @@
             @yield('content')
         </main>
         <footer class="site-footer">
-            <span class="site-copyright">Copyright © 2020 <a href="{{ $page->baseUrl ? $page->baseUrl : '/' }}">Luthfi Tri Atmaja</a></span>
+            <span class="site-copyright">Copyright © 2021 <a href="{{ $page->baseUrl ? $page->baseUrl : '/' }}">Luthfi Tri Atmaja</a></span>
         </footer>
     </div>
 </body>

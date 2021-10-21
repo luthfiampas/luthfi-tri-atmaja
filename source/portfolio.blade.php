@@ -22,7 +22,7 @@ $items = [
         'tags' => ['Library', '.NET Standard', 'FFmpeg']
     ],
     'TLDrop' => [
-        'desc' => 'High-performance desktop application for SEO enthusiast. It finds expired domains, dropped domains, expired Web 2.0 or even expired articles with only a few mouse-clicks.',
+        'desc' => 'High-performance desktop application for SEO enthusiast. It finds expired domains, dropped domains, expired Web 2.0 or even expired articles with only a few mouse clicks.',
         'link' => 'https://tldrop.lutpy.com',
         'tags' => ['Desktop', '.NET Framework', 'WinForms', 'SQLite']
     ],
@@ -77,7 +77,7 @@ $items = [
         'tags' => ['Desktop', '.NET Core', 'WPF']
     ],
     'JACB' => [
-        'desc' => 'Powerful bot that registers, creates and set-up Blogger websites in bulk with only few mouse clicks. It does not requires Blogger API, built with HTTP proxy tester and 2Captcha support.',
+        'desc' => 'Powerful bot that registers, creates and set-up Blogger websites in bulk with only a few mouse clicks. It does not requires Blogger API, built with HTTP proxy tester and 2Captcha support.',
         'link' => 'https://i.ibb.co/HnxX9ks/jacb.png',
         'tags' => ['Desktop', '.NET Core', 'WPF']
     ]

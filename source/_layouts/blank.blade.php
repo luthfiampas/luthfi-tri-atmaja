@@ -56,13 +56,13 @@
                     @endif
                     
                     <li class="site-nav-item">
-                        <a class="site-nav-link" href="https://github.com/luthfiampas" target="_blank" rel="nofollow">GitHub</a>
+                        <a class="site-nav-link" href="https://github.com/luthfiampas" target="_blank">GitHub</a>
                     </li>
                     <li class="site-nav-item">
-                        <a class="site-nav-link" href="https://linkedin.com/in/luthfiampas" target="_blank" rel="nofollow">LinkedIn</a>
+                        <a class="site-nav-link" href="https://linkedin.com/in/luthfiampas" target="_blank">LinkedIn</a>
                     </li>
                     <li class="site-nav-item">
-                        <a class="site-nav-link" href="https://twitter.com/luthfiampas" target="_blank" rel="nofollow">Twitter</a>
+                        <a class="site-nav-link" href="https://twitter.com/luthfiampas" target="_blank">Twitter</a>
                     </li>
                 </ul>
             </nav>

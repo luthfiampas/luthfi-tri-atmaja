@@ -9,7 +9,7 @@ description: Browse my portfolio for examples of my work. I am constantly creati
 @php
 $items = [
     'Putra Sikunir' => [
-        'desc' => 'A static site made with <a href="https://jigsaw.tighten.co" rel="nofollow" target="_blank">Laravel Jigsaw</a>, built for a start-up organization in Indonesia that serves lodging and tourism service. Fast, easy to navigate and highly SEO optimized.',
+        'desc' => 'A static site made with <a href="https://jigsaw.tighten.co" target="_blank">Laravel Jigsaw</a>, built for a start-up organization in Indonesia that serves lodging and tourism service. Fast, easy to navigate and highly SEO optimized.',
         'link' => 'https://putrasikunir.com',
         'tags' => ['Website', 'PHP', 'HTML', 'SCSS', 'JavaScript']
     ],
@@ -86,7 +86,7 @@ $items = [
     @foreach ($items as $key => $item)
     <li class="portfolio-item">
         <h2 class="portfolio-item-title" data-number="{{ $num }}.">
-            <a href="{{ $item['link'] }}" rel="nofollow" target="_blank">{{ $key }}</a>
+            <a href="{{ $item['link'] }}" target="_blank">{{ $key }}</a>
         </h2>
         <p class="portfolio-item-description">{!! $item['desc'] !!}</p>
         <div>

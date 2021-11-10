@@ -82,19 +82,15 @@ $items = [
 @endphp
 
 <ul class="portfolio-items">
-    @php $num=1 @endphp
     @foreach ($items as $key => $item)
     <li class="portfolio-item">
-        <h2 class="portfolio-item-title" data-number="{{ $num }}.">
-            <a href="{{ $item['link'] }}" target="_blank">{{ $key }}</a>
-        </h2>
+        <h2><a href="{{ $item['link'] }}" target="_blank">{{ $key }}</a></h2>
         <p class="portfolio-item-description">{!! $item['desc'] !!}</p>
         <div>
             @foreach ($item['tags'] as $tag)
             <span class="tag">{{ $tag }}</span>
             @endforeach
         </div>
-        @php $num++ @endphp
     </li>
     @endforeach
 </ul>

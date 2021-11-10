@@ -8,17 +8,6 @@
     margin: 1.25rem 0;
     padding: 0;
 
-    &-title {
-        align-items: center;
-        display: flex;
-
-        &::before {
-            content: attr(data-number);
-            font-weight: 300;
-            margin-right: .25rem;
-        }
-    }
-
     &-description {
         margin-bottom: .25rem;
     }

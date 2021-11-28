@@ -3,8 +3,8 @@
 namespace App\Listeners;
 
 use Illuminate\Support\Str;
-use samdark\sitemap\Sitemap;
 use TightenCo\Jigsaw\Jigsaw;
+use samdark\sitemap\Sitemap;
 
 class GenerateSitemap
 {
@@ -19,7 +19,7 @@ class GenerateSitemap
         $baseUrl = $jigsaw->getConfig('baseUrl');
 
         if (!$baseUrl) {
-            echo ("\nTo generate a sitemap.xml file, please specify a 'baseUrl' in config.php.\n\n");
+            echo ("\nTo generate a sitemap.xml file, please specify 'baseUrl' in the config.php.\n\n");
             return;
         }
 

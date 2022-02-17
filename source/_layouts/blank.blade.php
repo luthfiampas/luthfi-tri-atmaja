@@ -57,7 +57,7 @@
             @yield('body')
         </main>
         <footer class="site-footer">
-            <span class="site-copyright">Copyright © {{ date('Y') }} <a href="{{ $page->baseUrl ? $page->baseUrl : '/' }}">Luthfi Tri Atmaja</a></span>
+            <span class="site-copyright">Copyright &copy; {{ date('Y') }} <a href="{{ $page->baseUrl ? $page->baseUrl : '/' }}">Luthfi Tri Atmaja</a></span>
         </footer>
     </div>
 </body>

@@ -12,17 +12,6 @@ h4 {
     margin: 0;
 }
 
-h1.has-icon {
-    align-items: center;
-    display: flex;
-
-    &::after {
-        content: attr(data-icon);
-        font-size: $text-h3;
-        margin-left: .75rem;
-    }
-}
-
 p {
     margin-top: 0;
     margin-bottom: .75rem;

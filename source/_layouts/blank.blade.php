@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:site_name" content="Luthfi Tri Atmaja" />
     <meta property="og:locale" content="en_US" />
-    
+
     @if ($page->description)
     <meta name="description" content="{{ $page->description }}">
     <meta property="og:description" content="{{ $page->description }}" />
@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <link rel="icon" href="/assets/images/icon.png">
-    
+
     @yield('head')
 </head>
 
@@ -35,26 +35,12 @@
             </div>
             <nav class="site-nav">
                 <ul class="site-nav-items">
-                    @if (\Illuminate\Support\Str::startsWith($page->getPath(), '/portfolio'))
                     <li class="site-nav-item">
-                        <a class="site-nav-link is-active" href="/portfolio">Works</a>
+                        <a class="{{ $page->getSiteNavLinkClass('/portfolio') }}" href="/portfolio">Works</a>
                     </li>
-                    @else
                     <li class="site-nav-item">
-                        <a class="site-nav-link" href="/portfolio">Works</a>
+                        <a class="{{ $page->getSiteNavLinkClass('/articles') }}" href="/articles">Articles</a>
                     </li>
-                    @endif
-
-                    @if (\Illuminate\Support\Str::startsWith($page->getPath(), '/articles'))
-                    <li class="site-nav-item">
-                        <a class="site-nav-link is-active" href="/articles">Articles</a>
-                    </li>
-                    @else
-                    <li class="site-nav-item">
-                        <a class="site-nav-link" href="/articles">Articles</a>
-                    </li>
-                    @endif
-                    
                     <li class="site-nav-item">
                         <a class="site-nav-link" href="https://github.com/luthfiampas" target="_blank">GitHub</a>
                     </li>

@@ -14,5 +14,5 @@
  * });
  */
 
-$events->afterBuild(App\Listeners\GenerateSitemap::class);
+$events->afterBuild(App\Listeners\SitemapGenerator::class);
 $events->afterBuild(App\Listeners\HtmlMinifier::class);

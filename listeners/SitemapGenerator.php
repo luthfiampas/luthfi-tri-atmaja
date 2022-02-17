@@ -6,13 +6,9 @@ use Illuminate\Support\Str;
 use TightenCo\Jigsaw\Jigsaw;
 use samdark\sitemap\Sitemap;
 
-class GenerateSitemap
+class SitemapGenerator
 {
-    protected $exclude = [
-        '/assets/*',
-        '*/favicon.ico',
-        '*/404*'
-    ];
+    protected $exclude = ['/assets/*', '*/favicon.ico', '*/404*'];
 
     public function handle(Jigsaw $jigsaw)
     {
@@ -36,12 +32,12 @@ class GenerateSitemap
         $sitemap->write();
     }
 
-    public function normalizePath($page)
+    private function normalizePath($page)
     {
         return str_replace('\\', '/', $page->getPath());
     }
 
-    public function isExcluded($path)
+    private function isExcluded($path)
     {
         return Str::is($this->exclude, $path);
     }

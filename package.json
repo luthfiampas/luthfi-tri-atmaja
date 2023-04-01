@@ -5,7 +5,7 @@
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
         "prod": "mix --production",
-        "deploy": "mix --production & netlify deploy --prod --dir=build_production --site=4dae94ee-e727-420d-abec-dae0326fe041"
+        "deploy": "mix --production && netlify deploy --prod --dir=build_production --site=4dae94ee-e727-420d-abec-dae0326fe041"
     },
     "devDependencies": {
         "laravel-mix": "^6.0.10",
